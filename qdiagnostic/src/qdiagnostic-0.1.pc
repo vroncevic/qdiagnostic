@@ -1,0 +1,17 @@
+##
+## gencpro ver.1.0 
+##
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+datarootdir=${prefix}/share
+datadir=${datarootdir}
+includedir=${prefix}/include/libqdiagnostic-0.1
+
+Name: libqdiagnostic
+Description: Ansi C library.
+Version: 0.1
+Requires: 
+Libs: -L${libdir} -lqdiagnostic
+Cflags: -I${includedir}
+
